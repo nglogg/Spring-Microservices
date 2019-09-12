@@ -15,8 +15,8 @@ post policies enforced on the calls.
 
 
 # Software needed
-1.	[Apache Maven] (http://maven.apache.org).
-2.	[Docker] (http://docker.com). 
+1.	[Apache Maven] (http://maven.apache.org). Version 3.6.0 and Java 8
+2.	[Docker] (http://docker.com). Docker V1.9
 # Building the Docker Images 
 To build the code as a docker image, open a command-line window change to the directory 
 Run the following maven command.  This command will execute the [Spotify docker plugin](https://github.com/spotify/docker-maven-plugin) defined in the pom.xml file.  
