@@ -1,9 +1,9 @@
 # Introduction
-This is Spring Microservices to create a build and deployment pipeline. It was built and then deployed all of the services to Amazon's Elastic Container Service (ECS).
+This is a Spring Microservices to create a build and deployment pipeline. It was built and then deployed all of the services to Amazon's Elastic Container Service (ECS).
 
-Architecture of  this microservices:
+Architecture of this microservices:
 
-1.  A Spring Cloud Config server that is deployed as Docker container and can manage a services configuration information using a file system or GitHub-based repository.
+1.  A Spring Cloud Config server. It is deployed as Docker container and manage a services configuration information using a file system or GitHub-based repository.
 2.  A Eureka server running as a Spring-Cloud based service allow multiple service instances to register with it.  Clients that need to call a service will use Eureka to lookup the physical location of the target service.
 3.  A Zuul API Gateway.  All of this microservices can be routed through the gateway and have pre, response and
 post policies enforced on the calls.
