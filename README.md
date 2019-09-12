@@ -1,5 +1,5 @@
 # Introduction
-This is Spring Microservices to create a build and deployment pipeline. I build this pipeline and then deploy all of the services to Amazon's Elastic Container Service (ECS).
+This is Spring Microservices to create a build and deployment pipeline. It was built and then deployed all of the services to Amazon's Elastic Container Service (ECS).
 
 Architecture of  this microservices:
 
@@ -23,13 +23,13 @@ Run the following maven command.  This command will execute the [Spotify docker 
 
    **mvn clean package docker:build**
 
-If everything builds successfully you should see a message indicating that the build was successful.
+If everything builds successfully, a message indicating that the build was successful.
 
 # Running the services 
-Now we are going to use docker-compose to start the actual image.  To start the docker image,
+Using docker-compose to start the actual image.  To start the docker image,
 change to the directory containing  
 .  Issue the following docker-compose command:
 
    **docker-compose -f docker/common/docker-compose.yml up**
 
-If everything starts correctly you should see a bunch of Spring Boot information fly by on standard out.  At this point all of the services needed for the microservices code will be running.
+If everything starts correctly, a bunch of Spring Boot information fly by on standard out.  At this point all of the services needed for the microservices code will be running.
