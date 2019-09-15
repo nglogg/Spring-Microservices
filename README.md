@@ -33,4 +33,4 @@ change to the directory containing
    **docker-compose -f docker/common/docker-compose.yml up**
 
 If everything starts correctly, a bunch of Spring Boot information fly by on standard out.  At this point all of the services needed for the microservices code will be running.
-(/image/success.png)
+[+](/image/success.png)
